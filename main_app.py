@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-file1 = open('pipe.plk', 'rb')
+file1 = open('model.plk', 'rb')
 rf = pickle.load(file1)
 file1.close()
 
